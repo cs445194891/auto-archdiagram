@@ -1,0 +1,18 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Local agent workspace and internal notes — never publish
+.workbuddy/
+
+# Safety net: keep unreviewed drafts and local snapshots out of the public
+# repo. The real boundary is to publish ONLY from this clean directory —
+# early drafts in the parent workspace are intentionally not part of it.
+*备份*
+*_backup.*
+*_draft.*
+*.local.html
